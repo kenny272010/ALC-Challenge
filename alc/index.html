@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>ALC Challenge By Kenny</title> 
+    <link rel="stylesheet" type="text/css" href="styles/semantic.min.css">    
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/components/icon.min.css'>
+    <link rel="stylesheet" type="text/css" href="styles/main-css.css">
+  
+</head>
+
+<body class="ui center container" style="text-align:center;">
+    <h1 class="center aligned header">Currency Converter ALC Challenge</h1>
+
+    <div name="convert_section" class="center aligned very padded piled segment">
+        <form name="convert_form">
+
+            <div class="convert_amount">
+                    <label class="label">Amount To Convert:</label>        
+                    <div class="ui size left icon corner labeled input" >
+                        <input type="text" id="amount_entry" placeholder="Amount To Convert"/>                       
+                    </div>
+            </div>
+
+            <br>            
+            <div class="from_currency">
+                        <label class="label">From</label>
+                        <select id="currency_from_dropdown" class="ui label">
+                    </select>
+
+            </div>
+            <br>
+            <div class="to_currency">
+                        <label class="label">To</label>
+                        <select id="currency_to_dropdown" class="ui label">
+                        </select>
+             </div>
+             <br/>
+
+             <div class="button_convert">
+                <button id="submit_button" class="ui blue labeled icon button" type="button">                       
+                        Convert
+                </button>
+              </div>
+                <br/>                
+                <div class="results_section">
+                        <label class="label">Result</label>
+                        <div class="ui disabled input" >
+                           <input type="text" id="converted_value_entry"
+                                  placeholder="Result"/>        
+                  </div>
+                </div>
+        </form>
+    
+    </div>
+
+</body>
+
+<footer>
+        
+        <script src="js/main/main.js" type="module"></script>
+       
+</footer>
+</html>

@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1.header{
+	color: black;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	}
+
+form.convert_form{
+	margin: 10px auto;
+	width: 80%;
+	text-align: center;
+	}
+#currency_from_dropdown,#currency_to_dropdown{
+	margin-bottom:5px;
+	}
